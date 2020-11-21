@@ -1,0 +1,41 @@
+@import url('../../css/style.css') ;
+
+:root
+{
+ --theme : var(--fuchsia) ;
+ --theme-66 : var(--fuchsia-66) ;
+ --theme-33 : var(--fuchsia-33) ;
+}
+
+.lang-menu a:active
+{
+background-color:var(--theme-33) !important;
+}
+
+article h2,article a:hover,article a:active,article a:link,article a:visited
+{
+color : var(--theme) ;
+}
+
+article h2{
+white-space: nowrap;
+}
+
+section
+{
+border-top: 2px solid var(--theme);
+border-bottom: 2px solid var(--theme);
+}
+
+.banniere
+{
+background-image:url('../../img/banniere.png');
+} 
+.banniere-en
+{
+background-image:url('../../img/banniere-en.png');
+}
+.content
+{
+padding-top:20px;
+}
